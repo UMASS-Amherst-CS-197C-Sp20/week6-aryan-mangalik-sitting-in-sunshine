@@ -72,4 +72,7 @@ double compute_average(city* ptrs[NUM_CITIES], int (*callback)(const city*)) {
   return sum / NUM_CITIES;
 }
 
+int get_city_population(const city *a){
+  return (a->population);
+
 //TODO: implement get_city_population
